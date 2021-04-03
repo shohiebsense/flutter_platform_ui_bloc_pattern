@@ -4,6 +4,9 @@ import 'package:english_words/english_words.dart';
 // ignore: implementation_imports
 import 'package:flutter/material.dart';
 
+const int itemsPerPage = 20;
+const catalogLength = 200;
+
 const _myListOfRandomColors = [
   Colors.red,
   Colors.blue,

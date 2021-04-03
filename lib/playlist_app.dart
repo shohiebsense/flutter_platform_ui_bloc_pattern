@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:ui_platform_design/page/home_page.dart';
+import 'package:ui_platform_design/page/infinity_list_page.dart';
 
 class PlaylistApp extends MaterialApp {
   PlaylistApp({Key? key})
@@ -16,5 +17,5 @@ class PlaylistApp extends MaterialApp {
                 child: Material(child: child),
               );
             },
-            home: const HomePage());
+            home: const InfinityListPage());
 }
